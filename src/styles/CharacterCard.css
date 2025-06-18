@@ -1,0 +1,118 @@
+.character-card {
+  font-family: Verdana, Geneva, sans-serif;
+  background-image: url('../assets/fondoCard.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(6px);
+  color: white;
+  position: relative; 
+}
+
+
+
+.images-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.character-image {
+
+  margin-bottom: 12px;
+  transition: transform 0.3s ease; /* Añadir transición para el efecto de crecimiento */
+}
+
+.character-image:hover {
+  transform: scale(2.2); /* Aumentar el tamaño de la imagen al pasar el cursor */
+}
+
+.character-info {
+  background-color: rgba(8, 11, 13, 0.864); 
+  border-radius: 10px;
+  padding: 16px 20px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 12px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+}
+
+
+.character-info h2 {
+  font-family: Impact, sans-serif;
+}
+
+
+.toggle-button {
+  background: linear-gradient(145deg, #0b0f1a, #1a1e2a);
+  color: #f6e80e;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(246, 232, 14, 0.2);
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  background: linear-gradient(145deg, #1a1e2a, #2a2f3d);
+  color: #fff700;
+  box-shadow: 0 6px 16px rgba(246, 232, 14, 0.4);
+  transform: translateY(-2px);
+}
+
+
+.description-text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.description-full {
+  background-color: rgba(8, 11, 13, 0.864);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: justify;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 8px;
+}
+
+
+.info-title {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+.info-value {
+  color: rgb(197, 255, 7);; 
+  font-size: 1.1rem;
+  font-weight: bold;
+  
+}
