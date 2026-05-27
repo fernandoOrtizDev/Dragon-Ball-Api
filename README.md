@@ -32,20 +32,11 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" title="CSS3">
 </span>
 
-<h4>Other Tools and Technologies</h4>
-<span>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" title="Git">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" title="Docker">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" title="AWS">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" title="Linux">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" title="AI Automation">
-</span>
-
 ---
 
 ## 🔌 API Consumida
 
-Este proyecto interactúa con la [Dragon Ball API](https://web.archive.org/web/20240401000000*/https://dragonball-api.com/) (o la URL de la API correspondiente que uses), extrayendo información detallada que incluye:
+Este proyecto interactúa con la [Dragon Ball API](https://web.dragonball-api.com/), extrayendo información detallada que incluye:
 * Nombres y descripciones de los personajes.
 * Imágenes oficiales.
 * Niveles de Ki y afiliaciones (Guerreros Z, villanos, etc.).
